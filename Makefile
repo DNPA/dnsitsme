@@ -2,7 +2,7 @@ SERVERCFILES = main.cpp UnPrivileged.cpp MainServer.cpp DnsResponse.cpp
 SERVERHFILES = UnPrivileged.hpp MainServer.hpp DnsResponse.hpp cachemap.hpp 
 CFILES = $(SERVERCFILES)
 HFILES =  $(SERVERHFILES)
-LIBFLAGS = -lboost_system -lboost_regex
+LIBFLAGS = -lboost_system -lboost_regex -pthread
 
 all: dnsitsme
 
