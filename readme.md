@@ -5,22 +5,23 @@ Prerequisites
 Please install following extra packages:
    - libboost_system
    - libboost_regex
+
 In debian with:
-	$sudo apt-get install libboost-system-dev libboost-regex-dev
+	sudo apt-get install libboost-system-dev libboost-regex-dev
 
 Compile
-   $cd dnsitsme
-   $make
+   cd dnsitsme
+   make
 
 Create user "dnsitsme"
 
-  $sudo adduser dnsitsme
+  sudo adduser dnsitsme
   
   
 USAGE
 =====
 
-   $sudo ./dnsitsme <ip-address>
+   sudo ./dnsitsme <ip-address>
 
    
    
